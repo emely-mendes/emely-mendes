@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emely - Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Botão hambúrguer -->
+  <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+
+  <div class="container">
+    <div class="sidebar">
+      <div class="logo">E</div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#sobre">About</a>
+        <a href="#habilidades">Skills</a>
+        <a href="#trabalho">Work</a>
+        <a href="#serviços">Services</a>
+        <a href="#contato">Contact</a>
+      </nav>
+    </div>
+
+    <div class="main">
+      <div class="text">
+        <h1>Olá, eu sou a Emely Mendes</h1>
+        <h2>Desenvolvedora</h2>
+        <p>Tenho 17 anos,Atualmente curso o 3 ano do ensino médio, juntamente com o curso técnico em Análise e Desenvolvimento de Sistemas. Quero me aprofundar cada vez mais e adquirir conhecimento sobre os assuntos que envolvem a tecnologia e programação, assim sigo em busca de novas oportunidades.</p>
+        <button class="btn">
+        <a class="link_botao" href="https://www.instagram.com/the.emelyy?igsh=Mzh1aXNuMzJxcnpj">Mais sobre mim</a>
+        </button>
+        <div class="contact-info">
+          <div class="contact-item">
+            <strong>Git 💻</strong>
+            emely-mendes
+          </div>
+          <div class="contact-item">
+            <strong>Whatsapp📱</strong>
+            85 985092082
+          </div>
+          <div class="contact-item">
+            <strong>Email📧</strong>
+           sampaioemely1508@gmail.com
+          </div>
+        </div>
+      </div>
+      <div class="profile-img">
+        <img src="imagem.jpg" alt="Minha imagem" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Script para abrir/fechar o menu no mobile -->
+  <script>
+    const toggle = document.querySelector(".menu-toggle");
+    const sidebar = document.querySelector(".sidebar");
+
+    toggle.addEventListener("click", () => {
+      sidebar.classList.toggle("active");
+    });
+  </script>
+
+</body>
+</html>
